@@ -1,32 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #f6f8fc;
 }
 
-.content{
-    width: 100hv;
+.content {
+    width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: white ;
-    
-    
-}
-.content h1 {
-    margin: 0;
+    background-color: #fff;
 }
 
-@media screen and (max-width: 992px) {
-    .content{
+.content h1{
+    margin-top: 10px;
+    width: 15vw;
+    -webkit-filter: drop-shadow(5px 0px 0px rgba(0,0,0,0.6));
+    filter: drop-shadow(5px 0px 0px rgba(0,0,0,0.6));
+}
+
+@media screen and (min-width: 992px) {
+    .content {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
-  }
-
+}
